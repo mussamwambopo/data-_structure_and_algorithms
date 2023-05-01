@@ -1,9 +1,11 @@
 def  sum_even_numbers(my_list):
     return
-number=list(map(int, input("please enter a number ").split()))
+my_list=[8,4,5,7,9,2]
 
-for number in my_list:
-    
+for num in my_list:
+    while num %2 ==0:
+        sum = num + num
+print(sum)
 
 if sum_even_numbers =="_main_":
     sum_even_numbers()
