@@ -1,9 +1,12 @@
-def find_first_occurance(my_list,Num):
+def find_first_occurance(my_list, Num):
+# list of numbers
 
-    my_list[1,2,34,6,9]
-    for int  in my_list():
-        return
-        my_list.find([int])
-find_first_occurance(5)
+    return
+Num=[1,2,3,4,5]
+my_list = Num
+ 
+# Will print the index of 'bat' in list2
+print(my_list.index(1))
+
 if find_first_occurance=="_main_":
-    find_first_occurance()
+    find_first_occurance
