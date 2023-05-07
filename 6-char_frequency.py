@@ -1,9 +1,9 @@
-def n_letter_dictionary(my_string):
+def character_frequency(string):
 
-    my_string=my_string.lower().split()
+    string=string.lower().split()
     sample_dictionary={}
     
-    for word in my_string:
+    for word in string:
         words=len(word)
         if words in sample_dictionary:
             sample_dictionary[words].add(word)
@@ -12,4 +12,6 @@ def n_letter_dictionary(my_string):
     print(sample_dictionary)
     return sample_dictionary
 
-n_letter_dictionary("The way you see people is the way you treat them and the Way you treat them is what they become")
+character_frequency("The way you see people is the way you treat them and the Way you treat them is what they become")
+if character_frequency=="_main_":
+    character_frequency
